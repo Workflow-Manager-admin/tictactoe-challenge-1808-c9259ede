@@ -1,5 +1,5 @@
 :root {
-  --kavia-orange: #E87A41;
+  --kavia-yellow: #FFD700;
   --kavia-dark: #1A1A1A;
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
@@ -44,7 +44,7 @@ body {
 }
 
 .logo-symbol {
-  color: var(--kavia-orange);
+  color: var(--kavia-yellow);
 }
 
 .container {
@@ -66,7 +66,7 @@ body {
 }
 
 .subtitle {
-  color: var(--kavia-orange);
+  color: var(--kavia-yellow);
   font-weight: 500;
   font-size: 1.1rem;
 }
@@ -87,8 +87,8 @@ body {
 }
 
 .btn {
-  background-color: var(--kavia-orange);
-  color: white;
+  background-color: var(--kavia-yellow);
+  color: black;
   border: none;
   border-radius: 4px;
   padding: 10px 20px;
@@ -99,7 +99,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #FF8B4D;
+  background-color: #FFE44D;
 }
 
 .btn-large {
