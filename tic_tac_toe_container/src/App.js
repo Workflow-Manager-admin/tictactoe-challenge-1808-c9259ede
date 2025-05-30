@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import TicTacToe from './components/TicTacToe';
+
 function App() {
   return (
     <div className="app">
@@ -8,9 +10,8 @@ function App() {
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
             <div className="logo">
-              <span className="logo-symbol">*</span> KAVIA AI
+              <span className="logo-symbol">*</span> TicTacToe Challenge
             </div>
-            <button className="btn">Template Button</button>
           </div>
         </div>
       </nav>
@@ -18,16 +19,15 @@ function App() {
       <main>
         <div className="container">
           <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
-            
-            <h1 className="title">tic_tac_toe_container</h1>
-            
+            <div className="subtitle">Interactive Game</div>
+            <h1 className="title">Tic Tac Toe</h1>
             <div className="description">
-              Start building your application.
+              A classic game where two players take turns marking spaces in a 3×3 grid.
+              The player who succeeds in placing three marks in a horizontal, vertical, or
+              diagonal row wins the game.
             </div>
-            
-            <button className="btn btn-large">Button</button>
           </div>
+          <TicTacToe />
         </div>
       </main>
     </div>
